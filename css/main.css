@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Antonio;
+    src: url(fonts/Antonio-Regular.ttf);
+}
+
+@font-face {
+    font-family: AntonioLight;
+    src: url(fonts/Antonio-Light.ttf);
+}
+
+@font-face {
+    font-family: AntonioBold;
+    src: url(fonts/Antonio-Bold.ttf);
+}
+
+
+/*Centering the links in the navbar*/
+
+nav.nav-center ul {
+	text-align: center;
+}
+
+nav.nav-center ul li {
+	display: inline;
+	float: none;
+}
+
+nav.nav-center ul li a {
+	display: inline-block;
+}
+
+/*************************************/
+
+.nav-font-size li a{
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+.nav-item{
+	margin-right: 4rem;
+}
+
+.antonio-light-font {
+	font-family: AntonioLight;
+}
+
+.top-parallax {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.marquee-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
