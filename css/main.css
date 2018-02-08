@@ -1,3 +1,4 @@
+/*******Bringing in Antonio fonts*******/
 @font-face {
     font-family: Antonio;
     src: url(fonts/Antonio-Regular.ttf);
@@ -13,8 +14,22 @@
     src: url(fonts/Antonio-Bold.ttf);
 }
 
+.antonio-font {
+	font-family: Antonio;
+}
 
-/*Centering the links in the navbar*/
+.antonio-light-font {
+	font-family: AntonioLight;
+}
+
+.antonio-bold-font {
+	font-family: AntonioBold;
+}
+/***************************************/
+
+
+
+/************ Navbar related ************/
 
 nav.nav-center ul {
 	text-align: center;
@@ -29,19 +44,17 @@ nav.nav-center ul li a {
 	display: inline-block;
 }
 
-/*************************************/
-
-.nav-font-size li a{
+.nav-font-size li a {
 	font-size: 25px;
-	letter-spacing: 3px;
 }
 
 .nav-item{
 	margin-right: 4rem;
 }
+/***************************************/
 
-.antonio-light-font {
-	font-family: AntonioLight;
+.space-out-letters {
+	letter-spacing: 3px;
 }
 
 .top-parallax {
@@ -55,4 +68,58 @@ nav.nav-center ul li a {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.social-in-parallax {
+	position: absolute;
+}
+
+.top-social-icons {
+	position: absolute;
+	top: 90%;
+	left: 43%;
+}
+
+.socials-container {
+	width: 100%;
+}
+
+.social-footer-icon {
+	color: white;
+	margin-right: 2rem;
+}
+
+.turn-it-white {
+	color: white;
+}
+
+.about-us {
+	font-size: 20px;
+}
+
+.beer-details {
+	font-family: Antonio;
+	font-size: 25px;
+}
+
+.beer-description {
+	font-family: Antonio;
+	font-size: 20px;
+}
+
+.card {
+	max-width: 500px;
+}
+
+.insta-photo {
+	width: 100%;
+}
+
+.remove-padding {
+	padding: 0px !important;
+}
+
+#instafeed {
+	margin: 0px;
+	padding: 0px;
 }
