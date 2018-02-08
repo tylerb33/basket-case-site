@@ -63,7 +63,7 @@ nav.nav-center ul li a {
 	color: white;
 }
 
-.marquee-text {
+.marquee-image {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -93,8 +93,8 @@ nav.nav-center ul li a {
 	color: white;
 }
 
-.about-us {
-	font-size: 20px;
+.subtext {
+	font-size: 23px;
 }
 
 .beer-details {
@@ -122,4 +122,26 @@ nav.nav-center ul li a {
 #instafeed {
 	margin: 0px;
 	padding: 0px;
+}
+
+.hours-container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#hours-table tr td {
+	text-align: center;
+	font-size: 22px;
+}
+
+.align-right {
+	text-align: right;
+}
+
+#instafeed .col {
+	margin-bottom: -7px !important;
+}
+
+.main-logo {
+	width: 70%;
 }
