@@ -1,56 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Compiled and minified CSS -->
+<!-- Compiled and minified CSS -->
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta charset="UTF-8">
 
-	<title>Basket Case Brewery</title>
+	<title>Basket Case Brewing Company</title>
 </head>
 <body>
-	<!-- NAV BAR HTML BELOW -->
+<!-- NAV BAR HTML BELOW -->
+<header>
 	<div class="navbar-fixed">
 	    <nav class="nav-center grey darken-2">
 	      <div class="nav-wrapper">
-	        <ul class="hide-on-med-and-down nav-font-size">
-	          <li class="nav-item antonio-light-font"><a href="#sass.html">HOME</a></li>
-	          <li class="nav-item antonio-light-font"><a href="#badges.html">OUR STORY</a></li>
-	          <li class="nav-item antonio-light-font"><a href="#sass.html">OUR BEER</a></li>
-	          <li class="nav-item antonio-light-font"><a href="#badges.html">EVENTS</a></li>
-	          <li class="antonio-light-font"><a href="#badges.html">HOURS</a></li>
+	        <ul class="hide-on-med-and-down nav-font-size space-out-letters">
+	          <li class="nav-item antonio-light-font"><a href="#home" class="slide">HOME</a></li>
+	          <li class="nav-item antonio-light-font"><a href="#story" class="slide">OUR STORY</a></li>
+	          <li class="nav-item antonio-light-font"><a href="#events" class="slide">EVENTS</a></li>
+	          <li class="nav-item antonio-light-font"><a href="#beers" class="slide">OUR BEER</a></li>
+	          <li class="antonio-light-font"><a href="#hours" class="slide">HOURS</a></li>
 	        </ul>
+
 	      </div>
 	    </nav>
 	</div>
-	<!--****************************************** -->
+</header>
+<!--****************************************** -->
 
 	<div class="parallax-container top-parallax">
     	<div class="parallax"><img src="images/hops_1500x1101.jpg"></div>
-    	<h1 class="marquee-text">Basket Case Brewery</h1>
+    	<h1 class="marquee-text" id="home">Basket Case Brewery</h1>
+    	<div class="row top-social-icons">
+    		<div class="col s6">
+    			<a href="https://www.instagram.com/basketcasebeer/" target="_blank"><i class="fa-3x fab fa-instagram turn-it-white"></i></a>
+    		</div>
+    		<div class="col s6">
+    			<a href="https://www.facebook.com/BasketCaseBrewingCompany/" target="_blank"><i class="fa-3x fab fa-facebook turn-it-white"></i></a>
+    		</div>
+    	</div>
   	</div>
+			
+	<div id="story"></div>
 	<div class="section white">
-	    <div class="row container">
-	      <h2 class="header">Parallax</h2>
-	      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+	    <div class="row container antonio-light-font">
+	      <h2 class="header">OUR STORY</h2>
+	      <p class="grey-text text-darken-3 lighten-3 space-out-letters about-us">Dark, lovely, luscious. The deep, dark brown color hints at the flavors within. With an aroma reminiscent of chocolate and freshly baked cookies, this beer is smooth, silky, creamy, full-bodied, roasty, toasty, and slightly nutty. This is one beautifully balanced, rich, and exquisite stout.</p>
 	    </div>
-	    <div class="row container">
-	      <h2 class="header">Parallax</h2>
-	      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-	    </div>
-	    <div class="row container">
-	      <h2 class="header">Parallax</h2>
-	      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-	    </div>
-
 	</div>
 
+	<div id="events"></div>
+	<div class="section grey">
+	    <div class="row container antonio-light-font">
+	      <h2 class="header">UPCOMING EVENTS</h2>
+	      <p class="grey-text text-darken-3 lighten-3 space-out-letters about-us">Need to find a library that has a sleek calendar to pull in here, to display events. Probably a modal to show more details.</p>
+	    </div>
+	</div>
+	
+	<div id="beers"></div>
+	<div class="section white">
+	    <div class="row container antonio-light-font">
+	      <h2 class="header">OUR BEER</h2>
+	      <p class="grey-text text-darken-3 lighten-3 space-out-letters about-us">Come on in and enjoy one of these tasty beers.</p>
+	    </div>
+	
+
+	<div class="row container">
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/beer-label.jpg">
+              <span class="card-title"></span>
+            </div>
+
+            <div class="card-content">
+                <div class="beer-details">
+            		<p>SAMPLE BEER NAME | 10% ABV | 98 IBU</p>
+            	</div>
+              	<p class="beer-description">Brewed with top fermenting yeast at cellar temperature, ales are fuller-bodied, with nuances of fruit or spice and a pleasantly hoppy finish.</p>
+            </div>
+<!--        <div class="card-action">
+              <a href="#">This is a link</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/beer-label.jpg">
+              <span class="card-title"></span>
+            </div>
+
+            <div class="card-content">
+                <div class="beer-details">
+            		<p>SAMPLE BEER NAME | 10% ABV | 98 IBU</p>
+            	</div>
+              	<p class="beer-description">Brewed with top fermenting yeast at cellar temperature, ales are fuller-bodied, with nuances of fruit or spice and a pleasantly hoppy finish.</p>
+            </div>
+<!--        <div class="card-action">
+              <a href="#">This is a link</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/beer-label.jpg">
+              <span class="card-title"></span>
+            </div>
+
+            <div class="card-content">
+                <div class="beer-details">
+            		<p>SAMPLE BEER NAME | 10% ABV | 98 IBU</p>
+            	</div>
+              	<p class="beer-description">Brewed with top fermenting yeast at cellar temperature, ales are fuller-bodied, with nuances of fruit or spice and a pleasantly hoppy finish.</p>
+            </div>
+<!--        <div class="card-action">
+              <a href="#">This is a link</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/beer-label.jpg">
+              <span class="card-title"></span>
+            </div>
+
+            <div class="card-content">
+                <div class="beer-details">
+            		<p>SAMPLE BEER NAME | 10% ABV | 98 IBU</p>
+            	</div>
+              	<p class="beer-description">Brewed with top fermenting yeast at cellar temperature, ales are fuller-bodied, with nuances of fruit or spice and a pleasantly hoppy finish.</p>
+            </div>
+<!--        <div class="card-action">
+              <a href="#">This is a link</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/beer-label.jpg">
+              <span class="card-title"></span>
+            </div>
+
+            <div class="card-content">
+                <div class="beer-details">
+            		<p>SAMPLE BEER NAME | 10% ABV | 98 IBU</p>
+            	</div>
+              	<p class="beer-description">Brewed with top fermenting yeast at cellar temperature, ales are fuller-bodied, with nuances of fruit or spice and a pleasantly hoppy finish.</p>
+            </div>
+<!--        <div class="card-action">
+              <a href="#">This is a link</a>
+            </div> -->
+          </div>
+        </div>
+
+    </div>
+   </div>
+
+	<div id="insta"></div>
+	<div class="section grey">
+	    <div class="row container antonio-light-font">
+	      <h2 class="header">INSTA BEERS</h2>
+	      <p class="grey-text text-darken-3 lighten-3 space-out-letters about-us">Need to find a library to pull in Instagram photos. Probably instafeed.js.</p>
+		</div>
+	</div>
+	
+	<div id="instafeed" class="row"></div>
 
 
 
+	<div id="hours"></div>
+	<div class="section white">
+	    <div class="row container antonio-light-font">
+	      <h2 class="header">COME SEE US</h2>
+	      <p class="grey-text text-darken-3 lighten-3 space-out-letters about-us">Need to find a way to neatly lay out hours table.</p>
+	    </div>
+	</div>
+
+    <footer class="page-footer grey darken-2">
+		<div class="footer-copyright">
+			<div class="container">
+				Copyright © 2018 Basket Case Brewing Co. All Rights Reserved.
+				<span class="right">
+					<a class="social-footer-icon" href="https://www.instagram.com/basketcasebeer/" target="_blank"><i class="fa-3x fab fa-instagram"></i></a>
+
+					<a href="https://www.facebook.com/BasketCaseBrewingCompany/" target="_blank"><i class="fa-3x fab fa-facebook social-footer-icon"></i></a>
+				</span>
+			</div>
+		</div>
+    </footer>
+
+	<script type="text/javascript" src="lib/node_modules/instafeed.js/instafeed.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- Compiled and minified JavaScript -->
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   	<script src="javascripts/main.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 </body>
 </html>
