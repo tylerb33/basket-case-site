@@ -122,6 +122,14 @@ nav.nav-center ul li a {
 
 .insta-photo {
 	width: 100%;
+
+}
+
+.insta-photo:hover {
+	opacity: .8;
+	-moz-opacity: .8;
+	-webkit-opacity: .8;
+	
 }
 
 .remove-padding {
