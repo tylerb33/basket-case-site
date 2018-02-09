@@ -162,3 +162,25 @@ nav.nav-center ul li a {
 .main-logo {
 	width: 70%;
 }
+
+.single-event {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: white;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.event-description {
+	font-size: 23px;
+}
+
+.event-date-time {
+	font-size: 29px;
+	margin-top: 0px;
+}
+
+.event-title {
+	margin: 0px;
+}
